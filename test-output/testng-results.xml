@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15138" started-at="2020-05-12T18:13:27Z" finished-at="2020-05-12T18:13:42Z">
+  <suite name="Default suite" duration-ms="47886" started-at="2020-05-20T00:18:16Z" finished-at="2020-05-20T00:19:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15138" started-at="2020-05-12T18:13:27Z" finished-at="2020-05-12T18:13:42Z">
-      <class name="com.acti.Base.DriverScript">
-        <test-method status="PASS" signature="initApp()[pri:0, instance:com.acti.Base.DriverScript@224edc67]" name="initApp" duration-ms="15097" started-at="2020-05-12T13:13:27Z" finished-at="2020-05-12T13:13:42Z">
+    <test name="Default test" duration-ms="47886" started-at="2020-05-20T00:18:16Z" finished-at="2020-05-20T00:19:04Z">
+      <class name="com.acti.Testcase.LoginPageTest">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="preTest" is-config="true" duration-ms="13758" started-at="2020-05-19T19:18:16Z" finished-at="2020-05-19T19:18:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initApp -->
-      </class> <!-- com.acti.Base.DriverScript -->
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="TestverifyactiLogo()[pri:1, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="TestverifyactiLogo" duration-ms="132" started-at="2020-05-19T19:18:29Z" finished-at="2020-05-19T19:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestverifyactiLogo -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="postTest" is-config="true" duration-ms="221" started-at="2020-05-19T19:18:30Z" finished-at="2020-05-19T19:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="preTest" is-config="true" duration-ms="11945" started-at="2020-05-19T19:18:30Z" finished-at="2020-05-19T19:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="TestLoginPageTitle()[pri:2, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="TestLoginPageTitle" duration-ms="17" started-at="2020-05-19T19:18:42Z" finished-at="2020-05-19T19:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLoginPageTitle -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="postTest" is-config="true" duration-ms="4187" started-at="2020-05-19T19:18:42Z" finished-at="2020-05-19T19:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="preTest" is-config="true" duration-ms="12788" started-at="2020-05-19T19:18:46Z" finished-at="2020-05-19T19:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="TestvalidateLoginFunction()[pri:3, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="TestvalidateLoginFunction" duration-ms="438" started-at="2020-05-19T19:18:59Z" finished-at="2020-05-19T19:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestvalidateLoginFunction -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@5e5792a0]" name="postTest" is-config="true" duration-ms="4363" started-at="2020-05-19T19:18:59Z" finished-at="2020-05-19T19:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+      </class> <!-- com.acti.Testcase.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

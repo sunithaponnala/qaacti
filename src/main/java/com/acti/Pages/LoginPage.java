@@ -13,7 +13,7 @@ import com.acti.Base.DriverScript;
 public class LoginPage extends DriverScript {
 	//identifying page elements using @findby elements by testng
 
-@FindBy(id="logocontainer") WebElement actiLogo;
+@FindBy(id="logoContainer") WebElement actiLogo;
 @FindBy(id="username") WebElement usernametb;
 @FindBy(name="pwd") WebElement passwordtb;  
 @FindBy(id="loginButton") WebElement logginbtn;

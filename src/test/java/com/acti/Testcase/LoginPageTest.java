@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 import com.acti.Base.DriverScript;
 import com.acti.Pages.LoginPage;
 
-public class LoginPageTest  extends DriverScript{
-	LoginPage lp;
+public class LoginPageTest  extends BaseTest{
+/*	LoginPage lp;
 	
 	public LoginPageTest()
 	//super keyword is used to call the parent or base class constructor
@@ -29,7 +29,7 @@ public class LoginPageTest  extends DriverScript{
 	public void postTest()
 	{
 		driver.close();
-	}
+	}*/
 	@Test(priority=1)
 	public void TestverifyactiLogo()
 	{

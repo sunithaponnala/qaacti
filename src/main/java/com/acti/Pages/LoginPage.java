@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.acti.Base.DriverScript;
+import com.acti.Utils.Common;
 
 
 //script:LoginPage
@@ -34,8 +35,11 @@ public boolean verifyactilogo()
 	
 	public void validateLogin(String username,String password)
 	{
+		Common.highLightElement(usernametb);
 		usernametb.sendKeys(username);
+		Common.highLightElement(passwordtb);
 		passwordtb.sendKeys(password);
+		Common.highLightElement(logginbtn);
 		logginbtn.click();
 		
 	}
